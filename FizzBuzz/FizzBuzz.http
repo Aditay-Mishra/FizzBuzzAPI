@@ -1,0 +1,30 @@
+@FizzBuzz_HostAddress = http://localhost:5088
+
+###
+
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/mostFrequentRequest/
+Accept: application/json
+
+###
+
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/ConvertToFizzBuzz?firstNumber=3&&secondNumber=5&&limit=25&&stringToReplaceMultipleOfFirstNumber=fizz&&stringToReplaceMultipleOfSecondNumber=buzz
+Accept: application/json
+
+###
+
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/ConvertToFizzBuzz?firstNumber=0&&secondNumber=2&&limit=25&&stringToReplaceMultipleOfFirstNumber=fizz&&stringToReplaceMultipleOfSecondNumber=buzz
+Accept: application/json
+
+###
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/ConvertToFizzBuzz?firstNumber=30&&secondNumber=5&&limit=25&&stringToReplaceMultipleOfFirstNumber=fizz&&stringToReplaceMultipleOfSecondNumber=buzz
+Accept: application/json
+
+###
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/ConvertToFizzBuzz?firstNumber=3&&secondNumber=5&&limit=25&&stringToReplaceMultipleOfFirstNumber=fizz&&stringToReplaceMultipleOfSecondNumber=buzz
+Accept: application/json
+
+###
+GET {{FizzBuzz_HostAddress}}/fizzbuzz/ConvertToFizzBuzz?firstNumber=3&&secondNumber=5&&limit=25&&stringToReplaceMultipleOfFirstNumber=fizz&&stringToReplaceMultipleOfSecondNumber=buzz
+Accept: application/json
+
+###
